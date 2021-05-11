@@ -8,7 +8,7 @@ import { PostService } from '../post.service';
   styleUrls: ['./post-create.component.css'],
 })
 export class PostCreateComponent {
-  constructor(public postService: PostService) {}
+  constructor(public postService: PostService) { }
 
   onAddPost(form: NgForm) {
     if (form.invalid) {
